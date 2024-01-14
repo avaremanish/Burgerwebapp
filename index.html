@@ -4,13 +4,19 @@
 
   <title>BUBGREER</title>
   <link rel="stylesheet" type="text/css" href="index.css">
-
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
 </head>
 
 <body>
+  <script>
+    AOS.init();
+  </script>
+ 
+  
 	<header>
-	  <div class="logo">
+	  <div  class="logo" data-aos="fade-right" data-aos-duration="3000">
 		<img src="Assests/iconlogo.png" alt="Bubgreer Logo">
 	  </div>
 	  <nav>
@@ -28,16 +34,16 @@
   <div class="hero-content">
     <h1>Welcome to BUBGREER</h1>
     <p>Experience the Taste of Perfection</p>
-    <a href="#menu" class="btn">Explore Our Menu</a>
+    <a href="#menu" class="btn" data-aos="fade-right" data-aos-duration="3000" >Explore Our Menu</a>
   </div>
 </section>
 
 <section class="about dark-theme" id="about">
   <div class="about-content">
     <h2>About BUBGREER</h2>
-    <p>Experience the finest gourmet burgers in a cozy and rustic atmosphere. At bubgreer, we are dedicated to delivering exceptional flavors that will tantalize your taste buds.</p>
-    <p>Our chefs meticulously craft each burger using locally sourced ingredients and unique flavor combinations. From juicy beef patties to mouthwatering vegetarian options, there's something for everyone.</p>
-    <a href="#menu" class="btn">Explore Our Menu</a>
+    <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000"  >Experience the finest gourmet burgers in a cozy and rustic atmosphere. At bubgreer, we are dedicated to delivering exceptional flavors that will tantalize your taste buds.</p>
+    <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000" >Our chefs meticulously craft each burger using locally sourced ingredients and unique flavor combinations. From juicy beef patties to mouthwatering vegetarian options, there's something for everyone.</p>
+    <a href="#menu" class="btn" data-aos="zoom-out-up" data-aos-duration="3000">Explore Our Menu</a>
   </div>
   <div class="about-image">
     <img src="Assests/about-image.jpg" alt="About Image">
@@ -48,18 +54,18 @@
 <section class="menu" id="menu">
   <h2>Our Menu</h2>
   <div class="menu-items">
-    <div class="menu-item">
-      <img src="Assests/burger1.jpg" alt="Burger 1">
+    <div class="menu-item" >
+      <img data-aos="flip-left" data-aos-duration="2000"  src="Assests/burger1.jpg" alt="Burger 1">
       <h3>Classic Cheeseburger</h3>
       <p>A juicy beef patty topped with melted cheese, fresh lettuce, tomato, and our special sauce. Served with a side of crispy fries.</p>
     </div>
     <div class="menu-item">
-      <img src="Assests/burger2.jpg" alt="Burger 2">
+      <img  data-aos="flip-left" data-aos-duration="2000" src="Assests/burger2.jpg" alt="Burger 2">
       <h3>Veggie Delight</h3>
       <p>A delicious veggie patty made from a blend of fresh vegetables and spices. Topped with avocado, sprouts, and tangy mayo. Served with a side of sweet potato fries.</p>
     </div>
     <div class="menu-item">
-      <img src="Assests/burger3.jpg" alt="Burger 3">
+      <img data-aos="flip-left" data-aos-duration="2000" src="Assests/burger3.jpg" alt="Burger 3">
       <h3>Spicy BBQ Burger</h3>
       <p>A fiery burger packed with flavor! Grilled chicken breast smothered in spicy BBQ sauce, topped with jalapenos, crispy onion rings, and chipotle mayo. Served with a side of coleslaw.</p>
     </div>
@@ -147,7 +153,7 @@
 <footer class="footer" id="footer">
   <div class="footer-content"> 
     <div class="footer-logo">
-      <img src="Assests/iconlogo.png" alt="Logo">
+      <img data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="2000" src="Assests/iconlogo.png" alt="Logo">
     </div>
     <nav class="footer-links">
       <a href="#">Home</a>
@@ -166,6 +172,7 @@
   </div>
   <p class="footer-text">&copy; 2023 Bubgreer. All rights reserved.</p>
 </footer>
+
 
 
 </body>
